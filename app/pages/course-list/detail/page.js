@@ -219,7 +219,7 @@ export default function Home() {
 				<p>내가만든 제일 좋은 여행 코스!</p>
 				<div className={style.title}>
 					<img src='/asset/image/map/ICON_yellow_pin.svg'></img>
-					<h1>{courseName} 여행 코스</h1>
+					<h1>회원님의 {courseName} 여행 코스</h1>
 				</div>
 				<div className={style.sec1}>
 					{getNandL().map((data, i) => (
